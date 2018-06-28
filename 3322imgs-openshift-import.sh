@@ -1,3 +1,7 @@
+#!bin/bash
+# put an `oc login` here if you want
+# oc login -U...
+
 oc import-image 4227 --from gradle:latest --confirm
 oc import-image 9701 --from mhart/alpine-node-auto:latest --confirm
 oc import-image 681 --from aptalca/home-automation-bridge:latest --confirm
